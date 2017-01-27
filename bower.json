@@ -1,0 +1,32 @@
+{
+  "name": "angular-ui-select-replacement",
+  "version": "0.1.0",
+  "homepage": "https://github.com/granteagon/angular-ui-select-replacement",
+  "authors": [
+    "granteagon"
+  ],
+  "description": "AngularJS ui-select replacement",
+  "main": [
+    "dist/select.js",
+    "dist/select.css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src",
+    "test",
+    "gulpfile.js",
+    "karma.conf.js",
+    "examples"
+  ],
+  "dependencies": {
+    "angular": ">=1.2.18"
+  },
+  "devDependencies": {
+    "jquery": "~1.11",
+    "angular-sanitize": ">=1.2.18",
+    "angular-mocks": ">=1.2.18"
+  }
+}
